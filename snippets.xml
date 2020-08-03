@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>チャット</title>
+		<snippets>
+			<snippet>
+				<title>挨拶</title>
+				<content>お問い合わせいただき誠にありがとうございます。本件は小林が担当させて頂きます。</content>
+			</snippet>
+			<snippet>
+				<title>ケース内容確認</title>
+				<content>〇〇の件でございますね。ケースの内容を拝見いたしますので少々お待ち下さい。</content>
+			</snippet>
+			<snippet>
+				<title>少々お待ち下さい</title>
+				<content>はい、承知致しました。確認いたしますので少々お待ち下さい。</content>
+			</snippet>
+			<snippet>
+				<title>メールへ誘導</title>
+				<content>いただいたご質問への回答に先立ち調査にお時間をいただきたく存じます。そのため、一度チャットを終了させていただき、web で回答させていただいてもよろしいでしょうか。</content>
+			</snippet>
+			<snippet>
+				<title>回答日時の提示</title>
+				<content>調査が完了次第、もしくは 〇〇 JST までに調査の進捗に関わらずご一報させて頂きますので、どうぞよろしくお願いいたします。</content>
+			</snippet>
+			<snippet>
+				<title>一旦失礼いたします</title>
+				<content>それでは、本件に関する共有事項やご不明等が他にございません場合、一旦チャットは終了させていただきたいと思います。</content>
+			</snippet>
+			<snippet>
+				<title>お客様、いらっしゃいますか (1)</title>
+				<content>お客様、いらっしゃいますでしょうか。</content>
+			</snippet>
+			<snippet>
+				<title>お客様、いらっしゃいますか (2)</title>
+				<content>お客様、いらっしゃらないようであれば、一旦チャットは終了とさせて頂きますが、宜しいでしょうか。</content>
+			</snippet>
+			<snippet>
+				<title>お客様、いらっしゃいますか (3)</title>
+				<content>誠に恐れ入りますが、お客様からの応答がございませんので一旦チャットを終了とさせて頂きます。</content>
+			</snippet>
+			<snippet>
+				<title>転送</title>
+				<content>チャットが来ていますが、対応されますか？</content>
+			</snippet>
+			<snippet>
+				<title>サマリ</title>
+				<content>お世話になっております。
+先ほどはチャットでのご連絡誠にありがとうございました。
+
+チャットの内容を下記にまとめましたので、認識が異なるようでしたらご指摘頂ければ幸いです。
+
+- 
+
+また、以下のご質問につきましては、web 上での回答でご承諾いただきました。
+
+- 
+
+上記について確認の上、メールにてご連絡させて頂きますので、今しばらくお時間を頂けますよう宜しくお願い致します。</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>電話</title>
+		<snippets>
+			<snippet>
+				<title>OTP</title>
+				<content>お世話になっております。AWS サポートでございます。
+
+お電話の候補日時をお知らせいただきまして、誠にありがとうございます。
+
+それでは、MM/DD HH:mm JST 前後にお電話を差し上げます。
+
+なお、お電話の際にはご本人様確認のため、ディスカッションに先立ちまして、パスコードの確認をさせていただきます。
+つきましては、下記の One Time Passcode を電話口でお伝え頂けますでしょうか。
+
+＜OTP Generatorで作成されたCode＞
+
+ご連絡内容は以上となります。
+ご確認のほど、どうぞよろしくお願いいたします。</content>
+			</snippet>
+			<snippet>
+				<title>サマリ</title>
+				<content>お世話になっております。
+先ほどはお電話でのご連絡、誠にありがとうございました。
+
+お話させて頂きました内容を下記にまとめましたので、認識が異なるようでしたらご指摘頂ければ幸いでございます。
+
+- 障害が発生したのは EC2 Instance ID: i-xxxxxxxx である
+- 具体的な障害内容は...
+
+上記について確認の上、メールにてご連絡させて頂きますので、今しばらくお時間を頂けますよう宜しくお願い致します。</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>調査項目</title>
+		<snippets>
+			<snippet>
+				<title>admiral</title>
+				<content>- CPUUtilization: 
+- NetworkIn:
+- NetworkOut: 
+- StatusCheckFailed:
+- timeline: 
+- console: 
+- pimms: 
+- droplet:
+	- timeline: </content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>
